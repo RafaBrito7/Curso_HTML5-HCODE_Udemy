@@ -4,7 +4,7 @@
 
 2. <DOCTYPE = Tag usada para o navegador reconhecer a versão do html como o html 5 ( <doctype html>)
 
-3. <!-- Comment -- = Comentários no html
+3. <!(--Comment--)> = Comentários no html
 
 4. <body = Onde tá o corpo do nosso código html, todos os conteúdos da página
 	- Por default, ela vem com { display: block / margin: 8px}
