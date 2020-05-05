@@ -6,13 +6,13 @@
 
 3. <!(--Comment--)> = Comentários no html
 
-4. <body = Onde tá o corpo do nosso código html, todos os conteúdos da página
+4. body = Onde tá o corpo do nosso código html, todos os conteúdos da página
 	- Por default, ela vem com { display: block / margin: 8px}
 	- **Reset da tag body pro css: <style> body{ margin: 0; } </body>**
 
-5. <head = Serve como contêiner para as tags de cabeçalho. É onde serão feitas as configurações( primeiro a ser carregado da página)
+5. head = Serve como contêiner para as tags de cabeçalho. É onde serão feitas as configurações( primeiro a ser carregado da página)
 
-6. <title = Definir o título principal do documento
+6. title = Definir o título principal do documento
 	- É ideal cada página ter um title único
 	- As buscas do google, são baseadas na tag title
 	- Filha da tag head
