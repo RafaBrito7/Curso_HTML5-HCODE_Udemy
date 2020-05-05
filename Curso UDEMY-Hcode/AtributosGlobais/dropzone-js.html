@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com DropZone</title>
+
+    <style>
+        .caixa{
+            width: 50px;
+            height: 50px;
+            background-color: darkblue;
+        }
+
+        .drop{
+            width: 150px;
+            height: 150px;
+            border: darkgreen 1px solid;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="01" class="caixa" draggable="true"></div>
+    <div id="02" class="caixa" draggable="true"></div>
+
+    <!-- //Define o que acontece quando o elemento arrastado é solto neste elemento.-->
+    <div class="drop" dropzone="copy"></div>
+
+    <script>
+        const caixas = document.querySelectorAll('.caixa');
+        const dropZone = document.querySelector('[dropzone]')
+
+        caixas.forEach(caixaEl => {
+            caixaEl.addEventListener('dragstart', e =>{
+                e.dataTransfer.setData('Text', e.target.id);
+                console.log(e.target.id);
+            })
+        })
+
+        dropZone.addEventListener('dragover', e =>{
+            e.preventDefault();
+        })
+
+        dropZone.addEventListener('drop', e => {
+            const id = e.dataTransfer.getData('Text');
+            const element = document.getElementById(id);
+
+            e.target.appendChild(element);
+
+            console.log('realized!!!!!');
+        })
+
+    </script>
+    
+</body>
+</html>

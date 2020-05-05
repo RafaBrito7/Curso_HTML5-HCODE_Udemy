@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trablhando com data-*</title>
+</head>
+<body>
+
+    <!__ // a tag ul, determina a criação de uma lista
+    // já a tag li, determina os dados dessa lista __>
+    <ul>
+        <!__ // data-* Usado para armazenar dados em um elemento. No lugar do (*) deve definir um nome. __>
+        <li data-id="001" data-email="teste@gmail.com">Teste da Silva</li>
+        <li data-id="002" data-email="lopes@gmail.com">Lopes da Silva</li>
+    </ul>
+
+    <!__ // Utilizando JavaScript para separar os data
+        // Caso quisesse separar por campo, console.log(liEL.dataset.data-email) __>
+    <script>
+        document.querySelectorAll('li').forEach(liEL =>{
+            console.log(liEL.dataset)
+        })
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com ID's</title>
+
+    <style>
+        #box-1{
+            width: 100px;
+            height: 100px;
+            background-color: darkmagenta;
+        }
+        #box-2{
+            width: 100px;
+            height: 100px;
+            background-color:darkseagreen;
+        }
+    </style>
+</head>
+<body>
+
+    <!--Define uma identificação única para o elemento-->
+    <div id="box-1"></div>
+    <div id="box-2"></div>
+
+    <!--Buscando o elementos pela ID com JS-->
+
+    <script>
+
+        // Forma 1
+        const box1 = document.getElementById('box-1');
+        console.log(box1);
+
+        //Forma 2
+        const box2 = document.querySelector('#box-2');
+        console.log(box2);
+
+    </script>
+    
+</body>
+</html>
