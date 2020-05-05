@@ -57,4 +57,26 @@
 **Obs: É importante que caso queira uma fonte menor e não tenha utilizado as tag's h anteriores a h6, é recomendado alterar o padrão CSS do style da tag h posterior para o campo desejado**
 
 15. <style = Usada para definir estilos CSS no próprio documento html 
+	- atributos especificos
+		- media = define qual dispositivo de midia o estilo se aplica
+		- type = define o typo de mídia (text/css)
+		
+16. script = Usada para definir um script em JS executado no lado do cliente (é executado na página e não no servidor)
+	- A tag permite ser escrito dentro dela ou apontar uma fonte externa(JS)
+	- Atributos especificos
+		- async = define q o script será executado d eforma assíncroma ( Funciona apenas para scripts externos)
+		- charset = define o padrão de caracteres usados
+		- defer = define que o script só será executado depois da página ser carregada
+		- src = define a fonte externa do script
+			- Ex: <script src="nome_do_arquivo.js"></script>
+		- type = define o tipo de mídia do script
+** Obs: a tag script deve ser escrita antes da tag body fechar **
+
+17. div = usada para criar uma divisão ou seção do documento
+	- Geralmente usada como contêiner para outros elementos
+
+18. span = Usada para agrupar texto ou tags em um documento 
+	- Não fornece nenhuma alteração visual por padrão
+ 	- seu objetos é aplicar um CSS pra texto
+	- Ex: "<p> Testando o <span class "vermelho">uso</span> da tag </p>" (<style> .vermelho { color: red; } </style>)
  
