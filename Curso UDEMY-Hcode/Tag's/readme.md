@@ -32,27 +32,27 @@
 			- <meta name="author" content="Rafael Brito"> (dá um autor para a página)
 			- <meta name="generator" content=" Visual Studio Code"> (informa em qual plataforma foi idealizado aquela página)
 
-8. <p = Usada para definir um parágrafo
+8. p = Usada para definir um parágrafo
 	- Por padrão CSS, já vem com um espaçamento de 1em no topo e embaixo (ou seja quebra linha entre uma tag p e outra)
 
-9. <h1 = Usada para definir o primeiro cabeçalho mais importante da página
+9. h1 = Usada para definir o primeiro cabeçalho mais importante da página
 	- É importante que uma página tenha apenas uma tag h1
 
-10. <h2 = Usada para definir o segundo cabeçalho mais importante da página
+10. h2 = Usada para definir o segundo cabeçalho mais importante da página
 	- É importante que já tenha uma tag h1 para ser utilizada a h2
 	- Pode ter mais de uma, por corresponder a um subtítulo
 
-11. <h3 = Usada para definir o terceiro cabeçalho mais improtante da página
+11. h3 = Usada para definir o terceiro cabeçalho mais improtante da página
 	- É importante que já tenha uma tag h1 e h2 
 	- Pode ter mais de uma
 
-12. <h4 = Usada para definir o quarto cabeçalho mais importante da página
+12. h4 = Usada para definir o quarto cabeçalho mais importante da página
 	- É importante que já tenha as tag's anteriores	
 
-13. <h5 = Usada para definir o quinto cabeçalho mais importante da página
+13. h5 = Usada para definir o quinto cabeçalho mais importante da página
 	- É importante que já tenha as tag's anteriores
 
-14. <h6 = Usada para definir o sexto cabeçalho mais importante da página e ÚLTIMO!
+14. h6 = Usada para definir o sexto cabeçalho mais importante da página e ÚLTIMO!
 	- É importante que já tenha as tag's anteriores
 **Obs: É importante que caso queira uma fonte menor e não tenha utilizado as tag's h anteriores a h6, é recomendado alterar o padrão CSS do style da tag h posterior para o campo desejado**
 
