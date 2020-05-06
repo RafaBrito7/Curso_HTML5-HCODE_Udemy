@@ -78,5 +78,63 @@
 18. span = Usada para agrupar texto ou tags em um documento 
 	- Não fornece nenhuma alteração visual por padrão
  	- seu objetos é aplicar um CSS pra texto
-	- Ex: "<p> Testando o <span class "vermelho">uso</span> da tag </p>" (<style> .vermelho { color: red; } </style>)
- 
+	- Ex: "<p Testando o <span class "vermelho">uso</span> da tag /p>" (<style> .vermelho { color: red; } </style>)
+
+19. link =  Usada para definir uma assosiação entre o documento atual e um externo ( ** Criei um arquivo .html com exemplos ** )
+	- Uso mais comum para linkar com um documento CSS
+	- Recomendado o uso dentro do HEAD
+	- Atributos Específicos
+		- crossorigin = define como o elemento lida com solicitações de origem cruzada
+			- anonymous, use-credentials
+		- href = define o link referente ao documento que será associado
+			- url
+		- hreflang = define a linguagem do documento associado
+			- código de linguagem
+		- media = define em qual dispositivo se aplica este documento 
+		- rel = define o relacionamento entre o documento atual e o associado
+			- alternate, author, dns-prefetch, help, icon, license, next, pingback
+			- preconnect, prefetch, preload, prerender, prev, search, stylesheet
+		- sizes = define um tamanho de largura e altura para associação de ícones
+			- AlturaxLargura
+		- type = define o tipo de mídia do documento associado
+			- tipo de mídia
+
+20. noscript = Define um conteúdo alternativo para usuários que desativaram scripts no navegador
+	- Só será exibido se não houve suporte para script
+
+21. embed = Usada para definir um conteúdo externo embutido
+	- Atributos especificos
+		- height = define a altura do conteúdo embutido
+		- src = define a fonte do conteúdo embutido
+		- type = define o tipo do conteúdo embutido
+		- width = define a largura do conteúdo embutido
+
+22. object = Usada para definir um objeto incorporado no documento
+	- É possivel incorporar um aúdio, vídeo, pdf, applets Java, Activex e etc
+	- Atributos especificos
+		- data = Define a url do recurso que será usada como objeto
+		- form = Define a qual formulário esse objeto pertence 
+			- id do formulário
+		- height = Define a altura do objeto
+		- name = Define o nome do objeto
+		- type = Define o tipo de mídia do objeto
+		- usemap = Define o nome do mapa de imagem para ser usado com o objeto 
+			- id do objeto
+		- width = Define a largura do objeto
+
+23. param = Usada para definir um parâmetro para plugin incorporados com a tag object
+	- Atributos específicos
+		- name 
+			- nome do parâmetro
+		- value
+ 			- valor do parâmetro
+
+24. base = Usada para definir um URL padrão para todos os links da página
+	- Pode havar no máximo uma tag base dentro da tag head
+	- Se a tag base estiver presente ela deverá ter um atributo href ou target, ou ambos
+	- Atributos especificos
+		- href = Define o url base para todos os links da página
+		- target = define onde o link deverá ser aberto
+			- _blank, _parent, _self, _top, Nome de um frame
+
+24. iframe =
