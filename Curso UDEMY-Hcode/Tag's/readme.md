@@ -137,4 +137,69 @@
 		- target = define onde o link deverá ser aberto
 			- _blank, _parent, _self, _top, Nome de um frame
 
-24. iframe =
+24. iframe = Usada para definir um quadro ou janela embutido	
+	- O quadro é usado para incorporar outro documento no documento html atual
+	- Atributos Específicos
+		- height = define a altura do quadro
+		- name = define o nome
+		- sandbox = ativa conteudos restritos 
+			- allow-forms, allow-pointer-look, allow-popups, allow-same-origins, allow-scripts,allow-top-navigation
+		- src = Define qual a fonte do documento a ser embutido
+		- srcdoc = Define qual a estrutura do documento a ser embutido
+		- width = Define a largura do quadro
+
+25. a = Usada para criar hyperlinks e vincular uma pagina html com outra
+	- Por padrão vem sempre com um sublinhado pra identificar que é um link
+	- Atributos Especificos
+		- download = usado para forçar um download do destino do link
+		- href = define qual o endereço do link de destino
+		- hreflang = define qual a linguagem do link de destino
+		- media = define qual a mídia ou dispositivo do link do destino
+		- ping = Endereço de rastreio para monitorar ciques no link de destino
+		- referrerpolicy = define qual referenciador deve ser enviado
+		- rel = define qual a relação do documento atual e o destino 
+		- target = define onde o link deverá ser aberto
+		- type = define o tipo de mídia do link de destino
+<h2> ** Estrutura do URL ** </h2> 
+	- protocolo://domínio:porta/caminho/recurso?parâmetros#fragmento
+	- Exemplos:
+		- https://www.hcode.com.br = Protocolo + domínio
+		- https://hcode.com.br/#/contato = Protocolo + domínio + fragmento
+		- https://google.com/search?q=hcode = Protocolo + domínio + recurso + parâmetro
+		- http://localhost:8000 = Protocolo + domínio + porta
+<h2> URI </h2>
+	- Uniform Resource Indentifier - Identificador Padrão de Recursos
+	- Usado para identificar um recurso
+		- https = Identificador de um site seguro	
+		- http = Identificador de um site
+		- ftp = Identificador de um transferido de arquivos
+		- file = Identificador de um arquivo local
+		- mailto = Identificador de um email
+		- tel = Identificador de um telefone 
+		- javascript = Identificador de código JavaScript
+	- Estilo CSS Padrão da Tag a
+		- a:link{
+			color:blue;
+			text-decoration: underline;
+			cursor: pointer; }
+		- a:visited{
+			color: #551A8B }
+		- a:link:active{
+			color: red; }
+** Obs: Exemplos Práticos no arquivo a.html **
+
+26. img = Usada para inserir imagem na página
+	- Os atributos src e alt são obrigatórios 
+	- Atributos Específicos
+		- alt = define um texto alternativo para imagem
+		- crossorigin = define como o elemento lida com solicitações de origem cruzada
+		- height = define a altura da imagem
+		- ismap = define a imagem como um mapa de imagem do lado do servidor 
+		- longdesc = define uma descrição detalhada da imagem
+		- sizes = define tamanhos alternativos da imagem
+		- src = define qual a fonte/link da imagem
+		- srcset = define a url da imagem em diferentes situações 
+		- usemap = define a imagem como um mapa de imagem do lado do cliente
+		- width = define a largura da imagem
+ ** Obs: Exemplos Práticos no arquivo a.html **
+
